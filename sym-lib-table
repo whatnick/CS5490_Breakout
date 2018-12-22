@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name CS5490-ISZ)(type Legacy)(uri ${KIPRJMOD}/lib/CS5490-ISZ.lib)(options "")(descr ""))
+  (lib (name whatnick)(type Legacy)(uri ${KIPRJMOD}/lib/whatnick.lib)(options "")(descr ""))
 )
