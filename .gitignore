@@ -1,3 +1,9 @@
+# Backup and cache files
 *bak
 *bck
 *cache*
+
+# Autoroute files
+*.dsn
+*.rules
+*.ses
