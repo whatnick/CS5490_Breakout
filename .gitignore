@@ -7,3 +7,6 @@
 *.dsn
 *.rules
 *.ses
+
+#Gerber delivery zip
+*.zip
