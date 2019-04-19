@@ -40,12 +40,12 @@ Text Notes 8125 7640 0    50   ~ 0
 $Comp
 L Connector_Generic:Conn_01x10 J1
 U 1 1 5C1BC9AA
-P 9800 1200
-F 0 "J1" V 10017 1146 50  0000 C CNN
-F 1 "Conn_01x10" V 9926 1146 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 9800 1200 50  0001 C CNN
-F 3 "~" H 9800 1200 50  0001 C CNN
-	1    9800 1200
+P 9305 2815
+F 0 "J1" V 9522 2761 50  0000 C CNN
+F 1 "Conn_01x10" V 9431 2761 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 9305 2815 50  0001 C CNN
+F 3 "~" H 9305 2815 50  0001 C CNN
+	1    9305 2815
 	0    -1   -1   0   
 $EndComp
 $Bitmap
@@ -7572,47 +7572,47 @@ Wire Wire Line
 $Comp
 L power:GND #PWR09
 U 1 1 5C1EF1E6
-P 10300 1495
-F 0 "#PWR09" H 10300 1245 50  0001 C CNN
-F 1 "GND" H 10305 1322 50  0000 C CNN
-F 2 "" H 10300 1495 50  0001 C CNN
-F 3 "" H 10300 1495 50  0001 C CNN
-	1    10300 1495
+P 9805 3110
+F 0 "#PWR09" H 9805 2860 50  0001 C CNN
+F 1 "GND" H 9810 2937 50  0000 C CNN
+F 2 "" H 9805 3110 50  0001 C CNN
+F 3 "" H 9805 3110 50  0001 C CNN
+	1    9805 3110
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR010
 U 1 1 5C1F0029
-P 9400 1490
-F 0 "#PWR010" H 9400 1340 50  0001 C CNN
-F 1 "+3V3" H 9415 1663 50  0000 C CNN
-F 2 "" H 9400 1490 50  0001 C CNN
-F 3 "" H 9400 1490 50  0001 C CNN
-	1    9400 1490
+P 8905 3105
+F 0 "#PWR010" H 8905 2955 50  0001 C CNN
+F 1 "+3V3" H 8920 3278 50  0000 C CNN
+F 2 "" H 8905 3105 50  0001 C CNN
+F 3 "" H 8905 3105 50  0001 C CNN
+	1    8905 3105
 	-1   0    0    1   
 $EndComp
-Text GLabel 9500 1400 3    50   Output ~ 0
+Text GLabel 9005 3015 3    50   Output ~ 0
 VP
-Text GLabel 9600 1400 3    50   Output ~ 0
+Text GLabel 9105 3015 3    50   Output ~ 0
 VN
-Text GLabel 10200 1400 3    50   Output ~ 0
+Text GLabel 9705 3015 3    50   Output ~ 0
 IN
-Text GLabel 10100 1400 3    50   Output ~ 0
+Text GLabel 9605 3015 3    50   Output ~ 0
 IP
-Text GLabel 10000 1400 3    50   Output ~ 0
+Text GLabel 9505 3015 3    50   Output ~ 0
 RX
-Text GLabel 9900 1400 3    50   Input ~ 0
+Text GLabel 9405 3015 3    50   Input ~ 0
 TX
 Wire Wire Line
-	9400 1395 9400 1400
-Connection ~ 9400 1400
+	8905 3010 8905 3015
+Connection ~ 8905 3015
 Wire Wire Line
-	9400 1400 9400 1490
+	8905 3015 8905 3105
 Wire Wire Line
-	10300 1400 10300 1495
-Text GLabel 9800 1400 3    50   Input ~ 0
+	9805 3015 9805 3110
+Text GLabel 9305 3015 3    50   Input ~ 0
 DO
-Text GLabel 9700 1400 3    50   Output ~ 0
+Text GLabel 9205 3015 3    50   Output ~ 0
 ~RESET
 Text GLabel 4525 3100 0    50   Input ~ 0
 ~RESET
