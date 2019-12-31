@@ -2,6 +2,9 @@
 *bak
 *bck
 *cache*
+*lock*
+*blend1
+_autosave*
 
 # Autoroute files
 *.dsn
